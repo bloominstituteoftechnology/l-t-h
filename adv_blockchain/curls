@@ -1,0 +1,16 @@
+curl -X GET -H 'Authorization: Token 01e6368ccdd81059ba8672ded4647847bda843a1' https://lambda-treasure-hunt.herokuapp.com/api/adv/init/
+
+
+
+curl -X POST -H 'Authorization: Token 479432788140a41ce5cb792d873f49bb1fa40212' -H "Content-Type: application/json" https://lambda-treasure-hunt.herokuapp.com/api/adv/status/
+
+
+curl -X POST -H 'Authorization: Token 01e6368ccdd81059ba8672ded4647847bda843a1' -H "Content-Type: application/json" -d '{"direction":"w"}' localhost:8000/api/adv/move/
+
+curl -X POST -H 'Authorization: Token 479432788140a41ce5cb792d873f49bb1fa40212' -H "Content-Type: application/json" -d '{"name":"poor tiny treasure"}' https://lambda-treasure-hunt.herokuapp.com/api/adv/transmogriphy
+
+
+
+curl -X GET -H 'Authorization: Token 479432788140a41ce5cb792d873f49bb1fa40212' https://lambda-treasure-hunt.herokuapp.com/api/bc/get_balance/
+
+curl -X POST -H 'Authorization: Token 479432788140a41ce5cb792d873f49bb1fa40212' -H "Content-Type: application/json" -d '{"name":"poor tiny treasure"}' https://lambda-treasure-hunt.herokuapp.com/api/adv/transmogrify/
