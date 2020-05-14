@@ -234,9 +234,9 @@ class Player(models.Model):
         self.mining_puzzle = ls8_puzzle
         self.save()
     def sugar_rush_active(self):
-        return self.donut_boost > timezone.now()
+        return True
     def pizza_power_active(self):
-        return self.pizza_power > timezone.now()
+        return True
 
 
 
