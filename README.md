@@ -2,7 +2,7 @@
 
 
 ## 1. Deploy server
-* `git clone https://github.com/LambdaSchool/Lambda-Treasure-Hunt--Server/`
+* `git clone https://github.com/BloomInstituteOfTechnology/Lambda-Treasure-Hunt--Server/`
 * `pipenv install`
 * `pipenv shell`
 * `./manage.py migrate`
